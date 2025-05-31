@@ -2,7 +2,7 @@
 
 API para exposição de dados referentes à quantidade de uvas processadas, produção e comercialização de vinhos, suco e derivados provenientes do Estado do Rio Grande do Sul, que representa mais de 90% da produção nacional. Apresenta-se também os dados de importações e exportações dos produtos da vitivinicultura.
 
-Vale salientar que os dados de vitinicultura foram extraídos do **Banco de dados de uva, vinho e derivados** organizado pela Embrapa Uva e Vinho, disponível em: http://vitibrasil.cnpuv.embrapa.br/.
+Vale salientar que os dados foram extraídos do **Banco de Dados de Vitinicultura (uva, vinho e derivados)** organizado pela Embrapa Uva e Vinho, disponível em: http://vitibrasil.cnpuv.embrapa.br/.
 
 De acordo com os organizadores do Portal de Dados da Vitivinicultura, alguns esclarecimentos se fazem necessários, para que os usuários façam o uso correto das informações:
 
