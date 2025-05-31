@@ -28,6 +28,7 @@ Do ponto de vista tecnológico, esta API foi desenvolvida com Python/Flask que i
 - **Web Scraping**: Consulta de dados de vitivinicultura em tempo real a partir do Portal de Dados da Vitivinicultura da Embrapa, bem como Web Scraping para extração e carga de dados para consultas "*offline*" em caso de indisponibilidade do Portal de Dados da Vitivinicultura, usando BeautifulSoup;
 - **Autenticação JWT**: Protege as rotas de consulta aos dados (produção, comercialização, processamento, importação e exportação) de vitivinicultura;
 - **Cache e Documentação**: Implementa cache para otimização de consultas e documentação automática com Swagger, usando Flasgger.
+- **Ferramentas de Formatação e Análise Estática de Código-fonte**: Para manter a consistência, legibilidade e qualidade do código-fonte no projeto, utilizou-se das tecnologias: Black, isort e Flake8.
 
 ## 📁 Estrutura de Diretórios do Projeto
 
