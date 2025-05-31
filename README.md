@@ -14,11 +14,11 @@ De acordo com os organizadores do Portal de Dados da Vitivinicultura, alguns esc
 
 A **API de Dados de Vitivinicultura** é formada pelos seguintes recursos:
 
-- Consulta de **dados de produção** de vinhos, sucos e derivados do Rio Grande do Sul/RS;
-- Consulta da **quantidade de uvas processadas** (Viníferas, Americanas e híbridas, Uvas de Mesa) no Rio Grande do Sul/RS;
-- Consulta da **quantidade de comercialização** de vinhos e derivados no Rio Grande do Sul/RS;
-- Consulta de **dados de importação** de derivados de uva (Vinhos de mesa, Espumantes, Uvas frescas, Uvas passas e Suco de Uva);
-- Consulta de **dados de exportação** de derivados de uva (Vinhos de mesa, Espumantes, Uvas frescas e Suco de Uva).
+- **Consulta de dados de produção** de vinhos, sucos e derivados do Rio Grande do Sul/RS;
+- **Consulta da quantidade de uvas processadas** (Viníferas, Americanas e híbridas, Uvas de Mesa) no Rio Grande do Sul/RS;
+- **Consulta da quantidade de comercialização** de vinhos e derivados no Rio Grande do Sul/RS;
+- **Consulta de dados de importação** de derivados de uva (Vinhos de mesa, Espumantes, Uvas frescas, Uvas passas e Suco de Uva);
+- **Consulta de dados de exportação** de derivados de uva (Vinhos de mesa, Espumantes, Uvas frescas e Suco de Uva).
 
 ## Tecnologias Utilizadas para o Desenvolvimento da API
 
