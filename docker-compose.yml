@@ -1,0 +1,10 @@
+version: '3'
+services:
+  api:
+    image: api-embrapa-vitivinicultura
+    container_name: app-api-embrapa-vitivinicultura
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
