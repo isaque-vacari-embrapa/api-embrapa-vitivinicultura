@@ -19,10 +19,11 @@ class Config:
     MAX_ANO_IMPORTACAO = 2024
     MIN_ANO_EXPORTACAO = 1970
     MAX_ANO_EXPORTACAO = 2024
+    SCRAPING_TIMEOUT_IN_SECONDS = 5
     SWAGGER = {
         "title": "Vitivinicultura",
         "uiversion": 3,
-        "description": "API de consulta ao banco de dados de uva, vinho e derivados da Embrapa Uva e Vinho, disponível em: http://vitibrasil.cnpuv.embrapa.br.",
+        "description": "API de consulta ao Banco de Dados de Vitivinicultura (uva, vinho e derivados) da Embrapa Uva e Vinho, disponível em: http://vitibrasil.cnpuv.embrapa.br.",
         "version": "v1",
         "termsOfService": "http://vitibrasil.cnpuv.embrapa.br/",
         "ui_params": {

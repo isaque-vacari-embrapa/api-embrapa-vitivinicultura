@@ -3,6 +3,7 @@ import logging
 import requests
 from bs4 import BeautifulSoup
 from utils.general_util import transform_scrap_value
+from infrastructure.config import Config
 
 logger = logging.getLogger("app-api")
 
@@ -35,7 +36,7 @@ def scraping_exportacao(site_url, tipo, ano) -> None:
 def scraping(url, tipo, ano, keys) -> None:
     try:
         url = url + "&ano=" + str(ano)
-        response = requests.post(url)
+        response = requests.post(url, timeout=Config.SCRAPING_TIMEOUT_IN_SECONDS)
 
         # Verifica se a requisição foi bem-sucedida
         response.raise_for_status()
