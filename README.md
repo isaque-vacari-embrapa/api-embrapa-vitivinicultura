@@ -29,6 +29,7 @@ Do ponto de vista tecnológico, esta API foi desenvolvida com Python/Flask que i
 - **Autenticação JWT**: Protege as rotas de consulta aos dados (produção, comercialização, processamento, importação e exportação) de vitivinicultura;
 - **Cache e Documentação**: Implementa cache para otimização de consultas e documentação automática com Swagger, usando Flasgger.
 - **Ferramentas de Formatação e Análise Estática de Código-fonte**: Para manter a consistência, legibilidade e qualidade do código-fonte no projeto, utilizou-se das tecnologias: Black, isort e Flake8.
+- **Observabilidade**: Utilização de logs estruturados para detecção e rastreabilidade de defeitos.
 
 ## 📁 Estrutura de Diretórios do Projeto
 
