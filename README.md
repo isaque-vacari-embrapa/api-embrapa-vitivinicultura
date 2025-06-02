@@ -1,4 +1,4 @@
-# API de Dados de Vitivinicultura
+# 🍷 API de Dados de Vitivinicultura
 
 API para exposição de dados referentes à quantidade de uvas processadas, produção e comercialização de vinhos, suco e derivados provenientes do Estado do Rio Grande do Sul, que representa mais de 90% da produção nacional. Apresenta-se também os dados de importações e exportações dos produtos da vitivinicultura.
 
@@ -20,7 +20,7 @@ A **API de Dados de Vitivinicultura** é formada pelos seguintes recursos:
 - **Consulta de dados de importação** de derivados de uva (Vinhos de mesa, Espumantes, Uvas frescas, Uvas passas e Suco de Uva);
 - **Consulta de dados de exportação** de derivados de uva (Vinhos de mesa, Espumantes, Uvas frescas e Suco de Uva).
 
-## Tecnologias Utilizadas para o Desenvolvimento da API
+## ✅ Tecnologias Utilizadas para o Desenvolvimento da API
 
 Do ponto de vista tecnológico, esta API foi desenvolvida com Python/Flask que inclui Web Scraping para consulta de dados em tempo real a partir do Portal de Dados da Vitivinicultura da Embrapa, bem como Web Scraping para extração e carga de dados para consultas "*offline*" em caso de indisponibilidade do Portal de Dados da Vitivinicultura. Vale salientar que o acesso à API requer autenticação do tipo JWT (JSON Web Token). De maneira detalhada, estas são as tecnologias utilizadas:
 
@@ -30,6 +30,20 @@ Do ponto de vista tecnológico, esta API foi desenvolvida com Python/Flask que i
 - **Cache e Documentação**: Implementa cache para otimização de consultas e documentação automática com Swagger, usando Flasgger.
 - **Ferramentas de Formatação e Análise Estática de Código-fonte**: Para manter a consistência, legibilidade e qualidade do código-fonte no projeto, utilizou-se das tecnologias: Black, isort e Flake8.
 - **Observabilidade**: Utilização de logs estruturados para detecção e rastreabilidade de defeitos.
+
+## 🔨 Diagrama da Arquitetura
+
+### ETL – Extração, Transformação e Carga de Dados para consulta offline
+
+![ETL – Extração, Transformação e Carga de Dados para consulta offline](assets/api-embrapa-vitivinicultura-fig1.png)
+
+### Funcionamento do mecanismo de registro e autenticação de usuários para consumo de dados da API
+
+![Funcionamento do mecanismo de registro e autenticação de usuários para consumo de dados da API](assets/api-embrapa-vitivinicultura-fig2.png)
+
+### Funcionamento da API – Consulta de Dados de Vitivinicultura
+
+![Funcionamento da API – Consulta de Dados de Vitivinicultura](assets/api-embrapa-vitivinicultura-fig3.png)
 
 ## 📁 Estrutura de Diretórios do Projeto
 
@@ -156,3 +170,7 @@ Acesse a API em `http://localhost:5000`.
 ## 📖 Documentação da API
 
 A documentação da API é gerada automaticamente com Swagger e está disponível em `http://localhost:5000/apidocs/`.
+
+## 🔓 Licença
+
+Apache License Version 2.0.
