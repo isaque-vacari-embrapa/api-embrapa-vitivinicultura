@@ -105,6 +105,8 @@ Do ponto de vista tecnológico, esta API foi desenvolvida com Python/Flask que i
 ├── instance
 │   ├── auth.db
 │   └── vitivinicultura.db
+├── notebooks
+│   ├── Tech_Challenge_FIAP_MLE.ipynb
 ├── README.md
 └── requirements.txt
 ```
@@ -122,6 +124,7 @@ Do ponto de vista tecnológico, esta API foi desenvolvida com Python/Flask que i
 - **`instance/`**: Bancos de dados da aplicação.
     - **`auth.db`**: Banco de dados de usuários para autenticação e autorização de acesso à consulta de dados de vitivinicultura.
     - **`vitivinicultura.db`**: Banco de dados de vitivinicultura para consulta de dados *offline* de produção, comercialização, processamento, importação e exportação; executada somente em caso de indisponibilidade do do Portal de Dados da Vitivinicultura da Embrapa Uva e Vinho.
+- **`notebooks/`**: Notebooks para Análise Exploratória de Dados (EDA).
 - **`docker-compose.yml`**: Configurações para conteinerização da aplicação em Docker.
 - **`Dockerfile`**: Configurações para Docker.
 - **`README.md`**: Documentação do projeto.
